@@ -2,32 +2,65 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=20879486)
 # :checkered_flag: NOME DO PROJETO
 
-Breve descrição do que o seu projeto faz.
+O projeto (Cultural Events) é um portal centralizado para a divulgação de eventos culturais, como manifestações artísticas, peças de teatro, apresentações musicais, feiras de artesanato, etc. A plataforma permite que qualquer visitante
+visualize os eventos que acontecerão na comunidade. Usuários cadastrados, sejam eles artistas ou membros da comunidade, podem contribuir divulgando seus próprios eventos, fortalecendo a cena cultural local.
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
+555524 | Renan Alencar Soares | Engenharia de Software
 
 ## :bulb: Objetivo Geral
-Descrever o objetivo de geral do projeto
+Fortalecer a cultura local, dar visibilidade a artistas independentes 
 
 ## :eyes: Público-Alvo
-Público-alvo do projeto
+Comunidades locais e artistas.
 
 ## :star2: Impacto Esperado
-Descreva o impacto esperado do projeto em relação ao público alvo
+Aumentar o engajamento da comunidade em eventos locais, gerando interaçao social
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
+Usuário não logado, Usuário logado, Administrador
 
-> Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
+1.Usuário não logado (Visitante):
+
+Visualizar a lista completa de eventos (com paginação).
+
+Filtrar eventos por categoria ou data.
+
+Ver os detalhes de um evento específico.
+
+Realizar cadastro (criar uma nova conta).
+
+Realizar login.
+
+2.Usuário logado:
+
+Todas as permissões do Visitante.
+
+[Restrito]Criar novos eventos.
+
+[Restrito]Atualizar e Deletar apenas os eventos que ele mesmo criou.
+
+[Restrito]Gerenciar sua própria conta de usuário (atualizar dados, etc)
+
+Realizar logout
+
+3.Administrador:
+
+Todas as permissões do Usuário logado.
+
+[Restrito] Gerenciar TODOS os eventos, de qualquer usuário (CRUD completo: Criar, Ler, Atualizar, Deletar).
+
+[Restrito] Gerenciar todas as contas de usuário (visualizar, atualizar papel, deletar).
+
+[Restrito] Gerenciar as Categorias de eventos (criar, editar e deletar categorias como "Música", "Teatro", "Arte").
+
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Liste as principais entidades do sistema.
+User, Event e Category.
 
